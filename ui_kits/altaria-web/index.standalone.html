@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Altaria Urbana · prototipo</title>
+  <meta name="description" content="Altaria Urbana estructura oportunidades de suelo y activos inmobiliarios para propietarios, promotores, inversores y gestoras de cooperativas." />
+  <link rel="icon" href="../../assets/altaria-isotipo.png" />
+  <link rel="stylesheet" href="../../colors_and_type.css" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Logo assets referenced as strings in primitives.jsx — lifted for the bundler -->
+  <meta name="ext-resource-dependency" content="../../assets/altaria-logo-horizontal-color.png" data-resource-id="logoColor" />
+  <meta name="ext-resource-dependency" content="../../assets/altaria-isotipo.png" data-resource-id="logoIso" />
+  <meta name="ext-resource-dependency" content="../../assets/altaria-logo-on-dark.png" data-resource-id="logoDark" />
+  <meta name="ext-resource-dependency" content="../../assets/altaria-logo-monochrome.png" data-resource-id="logoMono" />
+
+  <template id="__bundler_thumbnail" data-bg-color="#F5F1EA">
+    <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+      <rect width="1200" height="800" fill="#F5F1EA"/>
+      <!-- horizon band -->
+      <rect x="120" y="540" width="960" height="48" fill="#6E5A46"/>
+      <!-- two skyline volumes -->
+      <rect x="240" y="360" width="180" height="180" fill="#263238"/>
+      <rect x="460" y="280" width="220" height="260" fill="#263238"/>
+      <rect x="720" y="420" width="140" height="120" fill="#6F7F6A"/>
+      <!-- wordmark stand-in -->
+      <g font-family="Georgia, serif" fill="#263238">
+        <text x="600" y="690" text-anchor="middle" font-size="64" letter-spacing="6">ALTARIA</text>
+        <text x="600" y="740" text-anchor="middle" font-size="20" letter-spacing="14" fill="#6E5A46">URBANA</text>
+      </g>
+    </svg>
+  </template>
+
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="root"></div>
+
+  <script type="text/babel" src="components/primitives.jsx"></script>
+  <script type="text/babel" src="components/nav.jsx"></script>
+  <script type="text/babel" src="components/blocks.jsx"></script>
+  <script type="text/babel" src="pages/Home.jsx"></script>
+  <script type="text/babel" src="pages/Suelo.jsx"></script>
+  <script type="text/babel" src="pages/Oportunidades.jsx"></script>
+  <script type="text/babel" src="pages/Contacto.jsx"></script>
+  <script type="text/babel" src="pages/More.jsx"></script>
+  <script type="text/babel" src="app.jsx"></script>
+</body>
+</html>

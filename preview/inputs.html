@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8" /><title>Inputs</title>
+<link rel="stylesheet" href="../colors_and_type.css" />
+<style>
+  body{margin:0;background:var(--marfil-tecnico);padding:24px 36px;font-family:var(--font-sans);display:flex;align-items:center;justify-content:center;min-height:100vh}
+  .form{display:grid;grid-template-columns:1fr 1fr;gap:16px 20px;width:100%;max-width:600px}
+  .field{display:flex;flex-direction:column;gap:6px}
+  .lbl{font-size:12px;color:var(--fg-2);font-weight:500}
+  input,select,textarea{font-family:var(--font-sans);font-size:14px;color:var(--fg-1);background:#FAF8F4;border:1px solid var(--line);border-radius:4px;padding:10px 12px;outline:none;transition:border-color 220ms}
+  input:focus,select:focus,textarea:focus{border-color:var(--grafito-mineral)}
+  textarea{min-height:60px;resize:vertical}
+  .row{grid-column:1/-1;display:flex;gap:12px;align-items:center;font-size:12px;color:var(--fg-2)}
+  .check{width:14px;height:14px;border:1px solid var(--line-strong);border-radius:2px;background:#fff;flex-shrink:0}
+</style></head>
+<body>
+  <div class="form">
+    <div class="field"><label class="lbl">Nombre</label><input value="María Pérez" /></div>
+    <div class="field"><label class="lbl">Email</label><input value="maria@altaria.es" /></div>
+    <div class="field"><label class="lbl">Teléfono</label><input value="+34 612 345 678" /></div>
+    <div class="field"><label class="lbl">Perfil</label><select><option>Propietario</option></select></div>
+    <div class="field"><label class="lbl">Provincia</label><input placeholder="Sevilla" /></div>
+    <div class="row"><div class="check"></div>Acepto la política de privacidad y el tratamiento RGPD.</div>
+  </div>
+</body></html>

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8" /><title>Botones</title>
+<link rel="stylesheet" href="../colors_and_type.css" />
+<style>
+  body{margin:0;background:var(--marfil-tecnico);padding:28px 32px;font-family:var(--font-sans);display:flex;align-items:center;justify-content:center;min-height:100vh}
+  .grid{display:grid;grid-template-columns:auto auto;gap:14px 16px;align-items:center}
+  .lbl{font-family:var(--font-mono);font-size:10px;color:var(--fg-3);letter-spacing:.04em}
+  .btn{display:inline-flex;align-items:center;gap:8px;font-family:var(--font-sans);font-size:14px;font-weight:500;padding:11px 22px;border-radius:6px;border:1px solid transparent;cursor:pointer;transition:all 220ms cubic-bezier(.2,.6,.2,1);text-decoration:none;line-height:1}
+  .primary{background:var(--grafito-mineral);color:var(--marfil-tecnico)}
+  .primary:hover{background:var(--tierra-profunda)}
+  .secondary{background:transparent;color:var(--grafito-mineral);border-color:var(--grafito-mineral)}
+  .secondary:hover{background:var(--grafito-mineral);color:var(--marfil-tecnico)}
+  .ghost{background:transparent;color:var(--grafito-mineral)}
+  .ghost:hover{background:var(--arena-40)}
+  .accent{background:var(--tierra-profunda);color:var(--marfil-tecnico)}
+  .accent:hover{background:#5C4B3A}
+  .arrow{font-size:13px;letter-spacing:0}
+</style></head>
+<body>
+  <div class="grid">
+    <div class="lbl">primary</div><div><a class="btn primary">Solicitar diagnóstico <span class="arrow">→</span></a></div>
+    <div class="lbl">secondary</div><div><a class="btn secondary">Ver cómo trabajamos</a></div>
+    <div class="lbl">ghost</div><div><a class="btn ghost">Más detalles</a></div>
+    <div class="lbl">accent</div><div><a class="btn accent">Analizar mi suelo</a></div>
+  </div>
+</body></html>

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8" /><title>Navbar</title>
+<link rel="stylesheet" href="../colors_and_type.css" />
+<style>
+  body{margin:0;background:var(--marfil-tecnico);font-family:var(--font-sans);display:flex;align-items:flex-start;justify-content:center;min-height:100vh;padding-top:28px}
+  .nav{width:100%;max-width:1000px;padding:14px 22px;display:flex;align-items:center;justify-content:space-between;background:var(--blanco-calido);border:1px solid var(--line);border-radius:8px}
+  .brand{display:flex;align-items:center;gap:10px}
+  .brand img{height:30px;display:block}
+  .links{display:flex;gap:24px;font-size:13.5px;color:var(--fg-2)}
+  .links a{text-decoration:none;color:inherit}
+  .links a.active{color:var(--fg-1);font-weight:500}
+  .btn{font-family:var(--font-sans);font-size:13px;font-weight:500;padding:9px 18px;border-radius:6px;background:var(--grafito-mineral);color:var(--marfil-tecnico);border:none;cursor:pointer;display:inline-flex;align-items:center;gap:6px}
+</style></head>
+<body>
+  <div class="nav">
+    <div class="brand"><img src="../assets/altaria-logo-horizontal-color.png" /></div>
+    <div class="links">
+      <a class="active">Inicio</a>
+      <a>Suelo</a>
+      <a>Desarrollo</a>
+      <a>Comercialización</a>
+      <a>Oportunidades</a>
+      <a>Blog</a>
+    </div>
+    <button class="btn">Solicitar diagnóstico →</button>
+  </div>
+</body></html>

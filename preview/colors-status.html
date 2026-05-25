@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8" /><title>Status · Go / Hold / No-Go</title>
+<link rel="stylesheet" href="../colors_and_type.css" />
+<style>
+  body{margin:0;background:var(--marfil-tecnico);padding:32px;font-family:var(--font-sans);display:flex;align-items:center;justify-content:center;min-height:100vh}
+  .row{display:flex;gap:14px;flex-wrap:wrap;justify-content:center}
+  .badge{display:inline-flex;align-items:center;gap:10px;padding:8px 14px 8px 12px;border-radius:999px;font-size:13px;font-weight:500;letter-spacing:.02em;border:1px solid}
+  .dot{width:8px;height:8px;border-radius:50%}
+  .go    {background:#DCE2D7;border-color:#B4C0AB;color:#3F4D3B}
+  .go .dot{background:#6F7F6A}
+  .hold  {background:#EFE6CC;border-color:#D7C593;color:#705B23}
+  .hold .dot{background:#C2A661}
+  .nogo  {background:#EAD7D1;border-color:#C99E94;color:#6E342A}
+  .nogo .dot{background:#9C5A4E}
+  .note{font-size:11px;color:var(--fg-3);text-align:center;margin-top:18px;letter-spacing:.04em}
+</style></head>
+<body>
+  <div>
+    <div class="row">
+      <span class="badge go"><span class="dot"></span>Go</span>
+      <span class="badge hold"><span class="dot"></span>Hold</span>
+      <span class="badge nogo"><span class="dot"></span>No-Go</span>
+      <span class="badge go"><span class="dot"></span>Riesgo bajo</span>
+      <span class="badge hold"><span class="dot"></span>Riesgo medio</span>
+      <span class="badge nogo"><span class="dot"></span>Riesgo alto</span>
+    </div>
+    <div class="note">Tintados desde la paleta de marca — nunca verde semáforo, nunca amarillo neón, nunca rojo alerta.</div>
+  </div>
+</body></html>

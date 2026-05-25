@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8" /><title>Colores · semánticos</title>
+<link rel="stylesheet" href="../colors_and_type.css" />
+<style>
+  body{margin:0;background:var(--marfil-tecnico);padding:28px 36px;font-family:var(--font-sans)}
+  .row{display:flex;flex-direction:column;gap:8px}
+  .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+  .group{display:flex;flex-direction:column;gap:10px}
+  .label{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--tierra-profunda);font-weight:500}
+  .stack{display:flex;flex-direction:column;gap:6px}
+  .item{display:flex;align-items:center;gap:10px;font-size:12px;color:var(--fg-2)}
+  .dot{width:18px;height:18px;border-radius:4px;border:1px solid var(--line);flex-shrink:0}
+  .nm{font-family:var(--font-mono);font-size:11px;color:var(--fg-1)}
+</style></head>
+<body>
+  <div class="grid">
+    <div class="group">
+      <div class="label">Fondo</div>
+      <div class="stack">
+        <div class="item"><span class="dot" style="background:#F5F1EA"></span><span class="nm">bg-canvas</span></div>
+        <div class="item"><span class="dot" style="background:#FAF8F4"></span><span class="nm">bg-elevated</span></div>
+        <div class="item"><span class="dot" style="background:#EAE2D4"></span><span class="nm">bg-muted</span></div>
+        <div class="item"><span class="dot" style="background:#263238"></span><span class="nm">bg-inverse</span></div>
+      </div>
+    </div>
+    <div class="group">
+      <div class="label">Texto</div>
+      <div class="stack">
+        <div class="item"><span class="dot" style="background:#263238"></span><span class="nm">fg-1</span></div>
+        <div class="item"><span class="dot" style="background:#4A565C"></span><span class="nm">fg-2</span></div>
+        <div class="item"><span class="dot" style="background:#6B767B"></span><span class="nm">fg-3</span></div>
+        <div class="item"><span class="dot" style="background:#6E5A46"></span><span class="nm">fg-accent</span></div>
+      </div>
+    </div>
+    <div class="group">
+      <div class="label">Líneas</div>
+      <div class="stack">
+        <div class="item"><span class="dot" style="background:#D8D2C8"></span><span class="nm">line</span></div>
+        <div class="item"><span class="dot" style="background:#B6AE9F"></span><span class="nm">line-strong</span></div>
+        <div class="item"><span class="dot" style="background:#3D4A51"></span><span class="nm">line-on-inverse</span></div>
+      </div>
+    </div>
+    <div class="group">
+      <div class="label">Acento</div>
+      <div class="stack">
+        <div class="item"><span class="dot" style="background:#6E5A46"></span><span class="nm">tierra-profunda</span></div>
+        <div class="item"><span class="dot" style="background:#D8CCBB"></span><span class="nm">arena-calida</span></div>
+        <div class="item"><span class="dot" style="background:#6F7F6A"></span><span class="nm">verde-horizonte</span></div>
+      </div>
+    </div>
+  </div>
+</body></html>

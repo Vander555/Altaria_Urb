@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8" /><title>Iconografía</title>
+<link rel="stylesheet" href="../colors_and_type.css" />
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+<style>
+  body{margin:0;background:var(--marfil-tecnico);padding:24px 32px;font-family:var(--font-sans);display:flex;align-items:center;justify-content:center;min-height:100vh}
+  .row{display:flex;gap:22px;flex-wrap:wrap;align-items:center;justify-content:center;max-width:640px}
+  .ic{display:flex;flex-direction:column;align-items:center;gap:7px;width:74px}
+  .ic [data-lucide]{stroke-width:1.5;color:var(--fg-1)}
+  .nm{font-family:var(--font-mono);font-size:10px;color:var(--fg-3)}
+  .note{margin-top:18px;font-size:11px;color:var(--fg-3);text-align:center;width:100%;letter-spacing:.04em}
+</style></head>
+<body>
+  <div>
+    <div class="row">
+      <div class="ic"><i data-lucide="map" width="22" height="22"></i><span class="nm">map</span></div>
+      <div class="ic"><i data-lucide="layers" width="22" height="22"></i><span class="nm">layers</span></div>
+      <div class="ic"><i data-lucide="ruler" width="22" height="22"></i><span class="nm">ruler</span></div>
+      <div class="ic"><i data-lucide="file-text" width="22" height="22"></i><span class="nm">file-text</span></div>
+      <div class="ic"><i data-lucide="folder-open" width="22" height="22"></i><span class="nm">folder</span></div>
+      <div class="ic"><i data-lucide="compass" width="22" height="22"></i><span class="nm">compass</span></div>
+      <div class="ic"><i data-lucide="line-chart" width="22" height="22"></i><span class="nm">chart</span></div>
+      <div class="ic"><i data-lucide="check-circle-2" width="22" height="22"></i><span class="nm">check</span></div>
+      <div class="ic"><i data-lucide="users" width="22" height="22"></i><span class="nm">users</span></div>
+      <div class="ic"><i data-lucide="building" width="22" height="22"></i><span class="nm">building</span></div>
+      <div class="ic"><i data-lucide="arrow-right" width="22" height="22"></i><span class="nm">arrow</span></div>
+      <div class="ic"><i data-lucide="search" width="22" height="22"></i><span class="nm">search</span></div>
+    </div>
+    <div class="note">Lucide · stroke 1.5 · inherits currentColor. Substituido (no se proporcionó set propio).</div>
+  </div>
+  <script>lucide.createIcons();</script>
+</body></html>
