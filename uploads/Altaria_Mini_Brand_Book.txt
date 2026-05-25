@@ -1,82 +1,0 @@
-MINI BRAND BOOK
-ALTARIA
-Suelo, hogar y futuro.
-
-Posicionamiento
-Altaria nace para elevar el acceso a la vivienda desde la base: suelo bien gestionado, construcción eficiente y hogares pensados para durar. La marca debe sentirse premium pero accesible, seria pero humana, moderna pero atemporal.
-Documento de referencia rápida para uso interno, presentaciones y desarrollo gráfico posterior.
-
-1. ADN DE MARCA
-Concepto rector
-Transformar territorio en permanencia.
-Altaria no vende solo viviendas; convierte suelo en futuro habitable mediante una lógica estructural, ordenada y confiable.Identidad verbal
-Firme, clara, ambiciosa y confiable.
-Tono: sobrio, directo, sereno y con visión de largo plazo.
-Promesa: una base sólida para vivir, invertir y desarrollar con criterio.
-Confianza y solidez
-La estructura visual debe sentirse firme, estable y profesional, sin rigidez fría.Arraigo y territorio
-El universo gráfico nace del suelo, la parcela, la topografía y la implantación.Modernidad atemporal
-Nada de gestos futuristas evidentes ni clichés de promotora tradicional.Habitabilidad y futuro
-La marca culmina en hogar, comunidad y permanencia, no en simple construcción.
-Palabras clave: estructura · arraigo · proyección · habitabilidad · permanencia
-Ruta visual elegida: primera versión del imagotipo generado, por ser más limpia, memorable y premium, aunque la lectura cromática se interprete como metáfora de transformación del territorio y no como corte geológico literal.
-
-
-2. SISTEMA DE LOGOTIPO
-
-Versión principal
-Imagotipo horizontal. Uso prioritario en web, dossier, firma, presentaciones y papelería.Versiones permitidas
-Isotipo solo para avatar, favicon y señalética secundaria; monocroma para documentos técnicos; negativo para fondo oscuro limpio.Zona de seguridad
-Dejar alrededor del logo un margen mínimo equivalente a la altura de la “A” interna del símbolo. No invadir con texto, marcos ni fotografías.Tamaño mínimo
-Cuando el eslogan pierda legibilidad, se elimina antes de seguir reduciendo. Para tamaños pequeños se usa solo el isotipo.
-Nota de implementación
-El concepto visual está validado, pero antes de registro, web final o rotulación conviene redibujar el logo en vector para afinar curvas, grosores, alineaciones y espaciado del wordmark.
-
-3. PALETA Y TIPOGRAFÍA
-     Grafito Mineral
-#263238
-autoridad / logo / textosTierra Profunda
-#6E5A46
-territorio / materia / acentoArena Cálida
-#D8CCBB
-transición / equilibrioVerde Horizonte
-#6F7F6A
-vida / futuro / habitabilidadMarfil Técnico
-#F5F1EA
-fondo / aire / soporte
-Jerarquía cromática: Grafito domina; marfil crea aire; tierra, arena y verde acompañan. El verde nunca debe imponerse visualmente al grafito.
-Tipografía principal
-Söhne
-Personalidad: precisión, contemporaneidad y rigor corporativo.
-Alternativa gratuita recomendada: Manrope.Tipografía secundaria
-Tiempos Text
-Personalidad: capa editorial, humana y narrativa.
-Alternativa gratuita recomendada: Literata.
-Sistema tipográfico recomendado: titulares en grotesca sobria; textos corridos en grotesca limpia; citas, aperturas y storytelling con serif editorial.
-
-
-4. SISTEMA GRÁFICO Y REGLAS DE USO
-Sistema gráfico
-• Formas basadas en parcela, módulo, trama y capas de terreno.
-• Retículas de 4, 8 y 12 columnas con mucho aire.
-• Patrones topográficos y estructurales sutiles, nunca decorativos.
-• Iconografía lineal geométrica, más cercana a señalética arquitectónica que a iconos de app.Dirección de arte
-• Fotografía y renders con luz natural, materiales honestos y escala humana.
-• Composición sobria, jerarquía clara y espacio en blanco generoso.
-• Nada de familias de stock, skylines genéricos ni renders saturados.
-• La marca debe parecer una empresa que ordena y proyecta, no una inmobiliaria comercial tradicional.
-Do’s
-• Usar el imagotipo horizontal como versión principal.
-• Mantener predominio de grafito y fondos limpios.
-• Aplicar la marca con materiales mate y acabados sobrios.
-• Cuidar proporciones, márgenes y legibilidad antes que decorativismo.Don’ts
-• No deformar ni recolorear libremente el logo.
-• No usar casitas, llaves, edificios ni techos como apoyo gráfico.
-• No abusar del verde ni del marrón fuera del sistema.
-• No colocar la marca sobre fondos ruidosos o con bajo contraste.
-Checklist mínimo antes de usar la marca
-1. ¿Se está usando la versión correcta del logo?
-2. ¿Hay contraste suficiente entre marca y fondo?
-3. ¿La composición respira y mantiene márgenes limpios?
-4. ¿El tono visual se siente sobrio, humano y contemporáneo?
-Altaria · Mini Brand Book v1
